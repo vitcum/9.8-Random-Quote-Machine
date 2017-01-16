@@ -10,7 +10,7 @@ function createTweet(input) {
 		input.quoteAuthor = 'Unknow author';
 	}
 
-	var tweetText = 'Quote of the day -' + input.quoteText + ' Author:  '  + input.quoteAuthor;
+	var tweetText = 'Quote of the day -' + input.quoteText + ' Author: ' + input.quoteAuthor;
 		if (tweetText.lenght > 140) {
 			getQuote();
 		} else {
