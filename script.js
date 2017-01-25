@@ -1,5 +1,5 @@
-var tweetLink = 'http://twitter.com/intent/tweet?text=';
-var quoteUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&key=867576&format=jsonp&lang=en&jsonp=?';
+var tweetLink = 'https://twitter.com/intent/tweet?text=';
+var quoteUrl = 'https://crossorigin.me/http://crossorigin.me/http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en';
 
 function getQuote() {
 	$.getJSON(quoteUrl, createTweet);
